@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+/* 
+	BLN_HEXCODE
+	------------------
+	Blue	#20467E	
+	Gold 	#CC9933
+*/
+body {
+	padding:0; 
+	margin:0;
+	background-color:#EEE;
+	color:#333;}
+span {
+	display:inline-block;}
+	
+
+header {
+	background-color:#FFF;
+	color:#20467E;	
+	box-shadow:0 1px 2px 0 #DDD;}
+header ul li {
+	padding:0 10px 0 0;
+	vertical-align:middle;}	
+header ul li.gear {
+	padding:0 10px 0 15px;
+	color:#20467E;	
+	font-size:48px;
+	line-height:0.4;
+	cursor:pointer;}	
+header ul li.logo {
+	padding-top:10px;}
+header ul li.logo img {
+	width:40px;}
+header ul li.typeface {
+	padding-top:5px;
+	font-size:24px;}
+	
+
+nav {
+	background-color:#CC9933;
+	width:100%;
+	position:absolute;
+	z-index:99;
+	display:none;}
+nav li {
+	display:block;}
+nav li#userbox {
+	padding:5px 10px 0;	
+/*	text-align:right;*/
+	font-size:14px;}
+nav li#searchbox {
+	text-align:center;}	
+nav li#searchbox input {
+	width:90%;}	
+nav li a {
+	color:#FFF;
+	padding:20px;
+	display:block;}
+nav li a:hover {
+	background-color:#FFF;
+	color:#CC9933;}	
+
+
+main {
+	margin:10px 0;}
+main ul.tiles li {
+	background-color:#20467E;
+	color:#FFF;
+	border-bottom:solid;
+	display:block;}
+main ul.tiles li a {	
+	padding:150px 20px 20px;
+	display:block;}
+main ul.tiles li a:hover {
+	background-color:#CC9933;}	
+main ul.tiles li .tiles-title {
+	font-size:24px;}
+main ul.tiles li .tiles-meta {
+	margin-top:10px;}
+main ul.tiles li .tiles-total {
+	font-size:18px;}
+	
+
+main ul.list li {
+	background-color:#20467E;
+	color:#FFF;
+	border-bottom:solid;
+	display:block;}
+main ul.list li a {	
+	padding:20px;
+	display:block;}
+main ul.list li a:hover {
+	background-color:#CC9933;}
+	
+
+main ol.sublist {
+	display:none;}	
+main ol.sublist li a {
+	background-color:#FFF;
+	color:#20467E;
+	border:0;}	
+main ol.sublist li a:hover {
+	background-color:#DDD;}
+
+
+main .tab {
+	padding:10px;
+	background-color:#20467E;
+	color:#FFF;
+	font-size:14px;}
+main .tab a#action {
+	color:#CC9933;
+	text-decoration:underline;
+	float:right;}	
+main .tab a#action:hover {
+	color:#FFF;}	
+main .tab .menu a:hover {
+	color:#CC9933;
+	text-decoration:underline;}
+
+main ul.feed li {
+	padding:10px 15px;
+	margin:0 10px 10px;
+	background-color:#FFF;
+	box-shadow:0 1px 2px 0 #DDD;
+	display:block;}
+main ul.feed li h2 {
+	padding:0;
+	margin:0;}	
+main ul.feed li abbr {
+	color:#CC9933;}	
+main ul.feed li .feed-meta {
+	color:#666;
+	font-size:14px;}	
+main ul.feed li .feed-meta b {
+	color:#20467E;
+	font-style:italic;
+	font-weight:normal;}	
+main ul.feed li .feed-action {
+	margin-bottom:5px;
+	text-align:right;}		
+main ul.feed li .feed-action a {
+	color:#090;}	
+main ul.feed li a:hover {
+	color:#FF0012;}	
+
+
+main .about {
+	padding:20px;
+	text-align:center;}
+main .about h2 {
+	color:#20467E;}
+main .about a {
+	color:#0000EE;
+	text-decoration:underline;}	
+main .about a.btn {
+	color:white;
+	text-decoration:none;
+	border:0;
+	cursor:pointer;}
+main .about a.pri-btn {
+	background-color:#20467E;}
+main .about a.sec-btn {
+	background-color:#CC9933;}
+	
+	
+	

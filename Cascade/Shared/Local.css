@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+.landing {
+	padding:60px 0 20px;	
+	background-color:#20467E;
+	color:#FFF;
+	text-align:center;}
+.landing .profile {
+	background-color:#FFF;
+	width:120px;
+	height:120px;
+	border:solid #FFF;	
+	border-radius:60px;
+	display:inline-block;}	
+.landing .profile {
+	background-image:url("../../Media/Icon/Logo-Powerclip.png");
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-attachment:scroll;
+	background-size:cover;}
+
+
+.landing h2 {
+	margin-top:20px;}
+
+
+.landing .legend {
+	padding:20px;
+	margin:0 auto;
+	width:300px;
+	box-sizing:border-box;}
+.landing input {
+	margin:2px;
+	width:98%;
+	border:0;
+	display:block;}
+.landing input[type="submit"] {
+	background-color:#090;
+	color:#FFF;
+	width:100%;
+	text-transform:none;
+	border:0;
+	display:block;}
+.landing input[type="submit"]:hover {	
+	background-color:#16BC00;
+	cursor:pointer;}	
+
+
+.landing .api {
+	margin-top:20px;}	
+.landing .api a {
+	padding:5px 0;
+	background-color:#3B5998;
+	border-radius:5px;
+	display:block;}
+.landing .api a ul {
+	text-align:left;}
+.landing .api a li {
+	vertical-align:middle;}	
+.landing .api a li img {
+	padding-left:5px;
+	width:40px;
+	float:left;}	
+.landing .api a li:last-child {
+	padding-left:35px;
+	text-align:center;}	
+
+
+.landing footer {
+	margin:30px 0 0;}
+.landing footer a:hover {
+	text-decoration:underline;}	
+.landing footer span {
+	padding:0 5px;
+	color:#999;}
+	
+
+a.add {
+	background-color:#20467E;
+	color:#FFF;		
+	width:60px;
+	height:60px;
+	text-align:center;
+	border-radius:60px;
+	box-shadow:0 1px 2px 0 #DDD;
+	display:inline-block;}
+a.add {
+	bottom:20px;
+	right:20px;
+	position:fixed;}
+a.add:hover {
+	width:61px;
+	height:61px;
+	cursor:pointer;}
+a.add span {
+	margin-top:10px;
+	font-size:28px;
+	line-height:1.2;
+	display:inline-block;}	
+	

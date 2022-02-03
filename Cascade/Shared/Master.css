@@ -1,0 +1,50 @@
+@charset "utf-8";
+main .signup {
+	padding:20px;
+	margin:0 auto;
+	width:300px;
+	box-sizing:border-box;}
+	
+	
+main .signup h2,
+main .signup h3 {
+	margin:0;
+	text-align:center;}
+
+
+main .signup .legend {
+	margin-top:20px;}
+main .signup label,
+main .signup input,
+main .signup select {
+	width:98%;
+	display:block;}
+main .signup select {
+	width:100%;}	
+main .signup input[type="submit"] {
+	background-color:#090;
+	color:#FFF;
+	width:100%;
+	text-transform:none;
+	border:0;
+	display:block;}
+main .signup input[type="submit"]:hover {	
+	background-color:#16BC00;
+	cursor:pointer;}	
+main .signup .file {
+	padding:10px;
+	margin:10px 0;
+	border:dashed thin;}	
+main .signup .file label {
+	display:inline;}	
+main .signup .file input[type="file"] {
+	margin:0;
+	padding:0;
+	width:0;
+	display:inline-block;}		
+	
+	
+main .signup footer {
+	color:#20467E;}
+main .signup footer a {
+	font-weight:600;}	
