@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+.JSP_DISPLAY_ERROR {
+	padding:10px 20px;
+	margin:5px 0 0;
+	display:none;}
+.JSP_DISPLAY_ERROR .head {
+	float:right;}	
+.JSP_DISPLAY_ERROR .head #cancel {
+	font-size:18px;
+	line-height:0.5;
+	cursor:pointer;}
+.JSP_DISPLAY_ERROR .head #cancel:hover {
+	color:#999;}	
+.JSP_DISPLAY_ERROR .body {
+	padding:4px 0 0 0;}	
+.JSP_DISPLAY_ERROR .body::first-letter {
+	text-transform:capitalize;}
+.PRIMARY
+{
+	background-color:#337ab7;	
+	color:#fff;	
+	border-left:solid #337ab7;	
+}
+.SUCCESS
+{
+	background-color:#dff0d8;	
+	color:#3c763d;	
+	border-left:solid #3c763d;
+}
+.INFO
+{
+	background-color:#d9edf7;	
+	color:#337ab7;	
+	border-left:solid #337ab7;
+}
+.WARNING
+{
+	background-color:#fcf8e3;
+	color:#f0ad4e;		
+	border-left:solid #f0ad4e;
+}
+.DANGER
+{
+	background-color:#f2dede;	
+	color:#d9534f;	
+	border-left:solid #d9534f;
+}
+.DEFAULT
+{
+	background-color:#f5f5f5;	
+	color:#666;	
+	border-left:solid #666;
+}
+
+
+
+
